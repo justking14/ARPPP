@@ -1,0 +1,104 @@
+<!doctype html>
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="argon-required-reference-frames" content="FIXED" />
+<meta name="argon-required-capabilities" content="Vuforia" />
+
+	<script src="http://192.168.1.101:1337/vorlon.js"></script>
+	<script id="license" type="text/plain">
+	-----BEGIN PGP MESSAGE-----
+Version: OpenPGP.js v2.3.2
+Comment: http://openpgpjs.org
+
+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
+lybSIXXoGZL9yi/zKwg=
+=iQJb
+-----END PGP MESSAGE-----
+	</script>
+
+ 	<script src="scripts/three.js"></script>
+	<script src="scripts/threestrap.js"></script>
+	<script src="scripts/argon.js"></script>
+	<script src="scripts/argon-three.js"></script>
+
+  	<body style="background-color:rgba(255,255,255,0.7)">
+		<div id="argon-immersive-context">
+			<div id="scene-content">
+				<p><img id="currentImage" src="" /></p>
+				<p><input type="image" id="dialogButton" src="" onclick="buttonPressed()"></p>
+	    	</div>
+	    </div>
+		<div>
+			<h2>Panorama Project </h2> 
+		</div>
+	</body>
+
+	<script src="./scripts/app.js" type="text/javascript"></script>
+
+
+	<style>
+		#argon-immersive-context {
+			position: absolute;
+			top: 5%;
+			width: 100%;
+			height: 100%;
+			text-align:center;
+		}
+/*
+		#scene-content{
+
+			position: relative;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			top: 5%;
+			vertical-align: middle;
+			text-align:center;
+		}
+ */
+	</style>
+
+</html>

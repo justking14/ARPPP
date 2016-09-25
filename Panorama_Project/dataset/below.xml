@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <!-- <ImageTarget name="ByBucket_06" size="10.000000 10.000000" />
-    <ImageTarget name="Sideboard_05" size="10.000000 10.000000" />
-    <ImageTarget name="ByCook_04" size="100.000000 100.000000" />
-    <ImageTarget name="DishPantry_03" size="10.000000 10.000000" />
-    <ImageTarget name="FrontStoop_07" size="10.000000 10.000000" />
-    <ImageTarget name="TeaPractice_02" size="10.000000 10.000000" />
-    <ImageTarget name="ByCook_08" size="10.000000 10.000000" />
-    <ImageTarget name="ByBackDoor_09" size="10.000000 10.000000" />
-    <ImageTarget name="TeacupDestination_10" size="10.000000 10.000000" />
-    <ImageTarget name="BetsyPortrait_11" size="10.000000 10.000000" />
-    <ImageTarget name="ByChamberPot_12" size="10.000000 10.000000" />
-    <ImageTarget name="ByCook_13" size="10.000000 10.000000" />
-    <ImageTarget name="BackDoor_14" size="10.000000 10.000000" />
-    <ImageTarget name="AtCateringBill_15" size="10.000000 10.000000" />
-
-    <ImageTarget name="ByCook_01" size="10.000000 10.000000" />  -->
-
     <ImageTarget name="Wedding" size="10.000000 10.000000" />
   </Tracking>
 </QCARConfig>
